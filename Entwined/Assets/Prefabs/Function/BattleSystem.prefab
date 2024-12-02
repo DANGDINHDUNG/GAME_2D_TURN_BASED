@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2708618960577002074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5334363618382745270}
+  - component: {fileID: 5974207510277308606}
+  - component: {fileID: 4524653184146322476}
+  - component: {fileID: 4538687861668080520}
+  m_Layer: 0
+  m_Name: BattleSystem
+  m_TagString: Spawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5334363618382745270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708618960577002074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5974207510277308606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708618960577002074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd4a9eb97308b140826de20b40a9202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyOnField: []
+  characterOnField: []
+  fieldContainer: {fileID: 0}
+  characterContainer: {fileID: 0}
+  playerSpawnPoints:
+  - {x: -1.5, y: -1.6, z: 0}
+  - {x: 1.5, y: -1.6, z: 0}
+  - {x: -4.5, y: -1.6, z: 0}
+  - {x: 4.5, y: -1.6, z: 0}
+  enemySpawnPoints:
+  - {x: 0.2, y: 2.9, z: 3}
+  - {x: -2, y: 3.1, z: 3}
+  - {x: -4.3, y: 3, z: 3}
+  - {x: 2.4, y: 3.2, z: 3}
+  - {x: 4.7, y: 3, z: 3}
+  currentWaveIndex: 0
+  waves: []
+--- !u!114 &4524653184146322476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708618960577002074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edff3f58ebc51214ab8f2a2c26d7c3cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  participants: []
+  currentCharacterTurn: {fileID: 0}
+  actionValue:
+    actionGauge: 10000
+  enemyTargeted: {fileID: 0}
+--- !u!114 &4538687861668080520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708618960577002074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2540f55ef3f644db3ddd570039de74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inBattle: 0

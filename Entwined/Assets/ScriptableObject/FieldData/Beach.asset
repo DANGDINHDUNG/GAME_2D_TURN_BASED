@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6a131da2a1577478ee90d9a4a5417b, type: 3}
+  m_Name: Beach
+  m_EditorClassIdentifier: 
+  waveManagers:
+  - enemy:
+    - {fileID: 5477821432544422169, guid: 6232914ba4bae974a993f4005e5d2580, type: 3}
+    - {fileID: 5477821432544422169, guid: 2f06b3e94b4910b4e92557ef00d5ef57, type: 3}
+    - {fileID: 5477821432544422169, guid: 0b6e62e390ef46d42886732878303bcb, type: 3}
+    - {fileID: 5477821432544422169, guid: 0b6e62e390ef46d42886732878303bcb, type: 3}
+  - enemy:
+    - {fileID: 5477821432544422169, guid: 6232914ba4bae974a993f4005e5d2580, type: 3}
+    - {fileID: 5477821432544422169, guid: 0b6e62e390ef46d42886732878303bcb, type: 3}
+  - enemy:
+    - {fileID: 5477821432544422169, guid: 6232914ba4bae974a993f4005e5d2580, type: 3}
+  fieldBackground: {fileID: 6516478061238633505, guid: 417e0f777fbbbf74c823bff1100deeee, type: 3}

@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 0b5bc3963327a5940a5a6a941e57643e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: p_ButP-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 791
+        width: 156
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8521ddef42ed84a9fa6d94cc1269b5
+      internalID: -888986210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 796
+        width: 150
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223dd7d0265210e448ded4de40e37a0d
+      internalID: 995093320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 550
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3387c5e5083e22945ba039fae42d057b
+      internalID: 1556130632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 550
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3f444e3833a344b8e2d9bd2a5470a4
+      internalID: -1767643755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 310
+        width: 108
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cad4f802fcafd4f818e60917523ca0
+      internalID: 1664332205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 319
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfd9d8ca9f17ee41bfa20bf169b998f
+      internalID: 1581569277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 81
+        width: 107
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47f98109d3fe7d49b18947c713dd959
+      internalID: 2045124130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_ButP-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 50
+        width: 138
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d542d1838944da849ad254d5f4273382
+      internalID: -200976261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4a8d35c2006577a478b2883f792b3bc6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      p_ButP-Sheet_0: -888986210
+      p_ButP-Sheet_1: 995093320
+      p_ButP-Sheet_10: -1620678041
+      p_ButP-Sheet_11: 954937650
+      p_ButP-Sheet_12: -1155514500
+      p_ButP-Sheet_13: 1816908318
+      p_ButP-Sheet_14: -554596573
+      p_ButP-Sheet_15: -1645180414
+      p_ButP-Sheet_16: -75397622
+      p_ButP-Sheet_17: 957246451
+      p_ButP-Sheet_18: 1664332205
+      p_ButP-Sheet_19: 975429638
+      p_ButP-Sheet_2: 1472805361
+      p_ButP-Sheet_20: 1581569277
+      p_ButP-Sheet_21: 1495522919
+      p_ButP-Sheet_22: -1836812360
+      p_ButP-Sheet_23: 1338822486
+      p_ButP-Sheet_24: -2076457169
+      p_ButP-Sheet_25: -422687423
+      p_ButP-Sheet_26: 1350105911
+      p_ButP-Sheet_27: 1314649557
+      p_ButP-Sheet_28: -74403656
+      p_ButP-Sheet_29: 879184012
+      p_ButP-Sheet_3: 1556130632
+      p_ButP-Sheet_30: -346777493
+      p_ButP-Sheet_31: 2045124130
+      p_ButP-Sheet_32: 1523032452
+      p_ButP-Sheet_33: -200976261
+      p_ButP-Sheet_34: 1115819740
+      p_ButP-Sheet_35: 624082550
+      p_ButP-Sheet_36: -2134287179
+      p_ButP-Sheet_37: -63904749
+      p_ButP-Sheet_38: 87999623
+      p_ButP-Sheet_4: -1767643755
+      p_ButP-Sheet_5: -585268468
+      p_ButP-Sheet_6: -1432947838
+      p_ButP-Sheet_7: 1301060221
+      p_ButP-Sheet_8: -2043776686
+      p_ButP-Sheet_9: 1112333187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
